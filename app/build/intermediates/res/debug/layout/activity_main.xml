@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/data"
+        android:layout_gravity="center"
+        android:text="@string/txt_show_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/loading"
+        android:layout_gravity="center"
+        android:text="@string/txt_show_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <Button
+        android:id="@+id/empty"
+        android:layout_gravity="center"
+        android:text="@string/txt_show_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/error"
+        android:layout_gravity="center"
+        android:text="@string/txt_show_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/vary_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+<!-- From: file:/Users/littleghost/Documents/Android/Github/VaryView/app/src/main/res/layout/activity_main.xml -->

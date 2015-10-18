@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VaryView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--vary view helper-->
+    <string name="empty_tips">空空如也╮(╯▽╰)╭</string>
+    <string name="error_tips">加载失败╮(╯▽╰)╭</string>
+    <string name="error_refresh">点击重试</string>
+    <string name="loading_tips">正在加载...</string>
+
+    <string name="txt_show_data">显示数据页面</string>
+    <string name="txt_show_empty">显示数据为空页面</string>
+    <string name="txt_show_error">显示加载错误页面</string>
+    <string name="txt_show_loading">显示正在加载页面</string>
+
+
+</resources>
