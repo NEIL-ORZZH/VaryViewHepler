@@ -13,21 +13,21 @@ public interface ICaseViewHelper {
     /**
      * <p>获取上下文</p>
      *
-     * @return
+     * @return Context
      */
     Context getContext();
 
     /**
      * <p>获取显示数据的View</p>
      *
-     * @return
+     * @return View
      */
     View getDataView();
 
     /**
      * <p>获取当前正在显示的View</p>
      *
-     * @return
+     * @return View
      */
     View getCurrentView();
 
@@ -54,7 +54,7 @@ public interface ICaseViewHelper {
      * <p>实例化布局</p>
      *
      * @param layoutId 需要实例化的布局id
-     * @return
+     * @return View
      */
     View inflate(int layoutId);
 }

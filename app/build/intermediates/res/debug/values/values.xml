@@ -175,7 +175,7 @@
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/Users/littleghost/Documents/Android/Github/VaryView/app/build/intermediates/exploded-aar/VaryView/library/unspecified/res/values/values.xml -->
+    <!-- From: file:/Users/littleghost/Documents/Android/Github/VaryView/app/build/intermediates/exploded-aar/me.corer/library/1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="vv_error_refresh" type="id"/>
     <item name="vv_loading_progress" type="id"/>

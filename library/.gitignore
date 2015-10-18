@@ -1,8 +1,11 @@
 .gradle
-/local.properties
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
 /build
 /captures
 library.iml
+/project.properties
+/bintrayUpload.gradle
+/local.properties
+

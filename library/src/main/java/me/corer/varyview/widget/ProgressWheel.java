@@ -22,9 +22,10 @@ import me.corer.varyview.R;
  * Todd Davies' Progress Wheel https://github.com/Todd-Davies/ProgressWheel
  *
  * @author Nico Hormazábal
- *         <p/>
+ *         <p>
  *         Licensed under the Apache License 2.0 license see:
  *         http://www.apache.org/licenses/LICENSE-2.0
+ *         </p>
  */
 public class ProgressWheel extends View {
     private static final String TAG = ProgressWheel.class.getSimpleName();
@@ -71,12 +72,7 @@ public class ProgressWheel extends View {
     private float mTargetProgress = 0.0f;
     private boolean isSpinning = false;
 
-    /**
-     * The constructor for the ProgressWheel
-     *
-     * @param context
-     * @param attrs
-     */
+
     public ProgressWheel(Context context, AttributeSet attrs) {
         super(context, attrs);
 
@@ -84,11 +80,6 @@ public class ProgressWheel extends View {
                 R.styleable.ProgressWheel));
     }
 
-    /**
-     * The constructor for the ProgressWheel
-     *
-     * @param context
-     */
     public ProgressWheel(Context context) {
         super(context);
     }
@@ -141,7 +132,7 @@ public class ProgressWheel extends View {
 
     /**
      * Use onSizeChanged instead of onAttachedToWindow to get the dimensions of the view,
-     * because this method is called after measuring the dimensions of MATCH_PARENT & WRAP_CONTENT.
+     * because this method is called after measuring the dimensions of MATCH_PARENT ||WRAP_CONTENT.
      * Use this dimensions to setup the bounds and paints.
      */
     @Override
@@ -330,8 +321,8 @@ public class ProgressWheel extends View {
 
     /**
      * Check if the wheel is currently spinning
+     * @return  boolean
      */
-
     public boolean isSpinning() {
         return isSpinning;
     }
